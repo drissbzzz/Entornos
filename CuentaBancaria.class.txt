@@ -7,10 +7,11 @@ class CuentaBancaria
 	private double tipoInteres;	
 	//Metodos
 	
-	public CuentaBancaria(String numCuenta,String nomTitular,double saldo)
+	public CuentaBancaria(String numCuenta,String nomTitular,double saldo, double tipoInteres)
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
+		this.tipoInteres= tipoInteres;
 		ingreso(saldo);
 			}
 	
